@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="./script.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>YourDailyZen</title>
 </head>
@@ -17,9 +17,11 @@
 
     <div class="text">
      <h1>Your Daily Zen</h1>
-     <blockquote id="quote">Hello</blockquote>
-     <cite id="author"></cite>
-     <button id="search" onclick="getapi(api_url)" type="button">Find Inspiration</button>
+     <blockquote id="quote">  </blockquote>
+     <cite>
+         <p id="author"></p>
+     </cite>
+     <button id="search" onclick="handleGetData(event)" type="button">Search</button>
     </div>
 </body>
 </html>

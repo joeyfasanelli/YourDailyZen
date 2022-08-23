@@ -50,5 +50,10 @@ h1 {
     border-radius: 50px;
     background-color: #1f2024;
     color: white;
-    
+    margin: 20px 0px 0px 0px;
+}
+
+#quote {
+    padding: 1.4rem 0;
+    font-weight: 300;
 }
