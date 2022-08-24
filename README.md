@@ -12,7 +12,7 @@
 <img src="readme-images/homepage2.png" alt="Home Page"/>
 
 ## Getting Started
-
+https://joeyfasanelli.github.io/YourDailyZen/
 
 ## Future Enhancements
 * Add feature that enables user to share quotes on social media.
