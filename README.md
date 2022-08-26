@@ -6,6 +6,7 @@
 * CSS3
 * Javascript
 * jQuery
+* AJAX
 
 ## Screenshots
 <img src="readme-images/homepage.png" alt="Home Page"/>
