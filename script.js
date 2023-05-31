@@ -8,7 +8,7 @@ function handleGetData(event) {
     $.ajax(api_url).then(
         function(data){
         console.log(data);
-        $quote.text(data[0].q);
+        $quote.text('"' + data[0].q + '"');
         $author.text("--" + data[0].a)
         
 })};
