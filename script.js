@@ -1,7 +1,6 @@
-const api_url ="https://favqs.com/api/qotd";
-const $button = $("#search")
-const $author = $('#author')
-const $quote = $('#quote')
+const api_url ="https://zenquotes.io/api/today";
+const $author = $('#a')
+const $quote = $('#q')
 
 
 function handleGetData(event) {
@@ -9,8 +8,8 @@ function handleGetData(event) {
     $.ajax(api_url).then(
         function(data){
         console.log(data);
-        $quote.text(data.quote.body);
-        $author.text("--" + data.quote.author)
+        $quote.text(data[0].q);
+        $author.text("--" + data[0].a)
         
 })};
 

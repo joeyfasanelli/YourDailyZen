@@ -13,20 +13,17 @@ body {
     line-height: 1.2;
 }
 
+.background-image {
+    background-image: url(./images/lake-purple.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 h1 {
     font-weight: 350;
     font-size: 70px;
     line-height: 1.4;
     margin-bottom: 12px;
-}
-
-.video-container {
-    position: absolute;    
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: url('./Images/surfer.mp4') no-repeat center center/cover;
 }
 
 .text {
@@ -56,7 +53,6 @@ h1 {
 #quote {
     padding: 1.4rem 0;
     font-weight: 300;
-    
 }
 
 
