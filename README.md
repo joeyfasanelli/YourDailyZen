@@ -9,6 +9,8 @@
 * AJAX
 * Zenquotes.io
 
+<b>You may need to add a Cors extension to your browser in order for app to work.</b>
+
 ## Screenshots
 <img src="readme-images/YourDailyZenHome.png" alt="Home Page"/>
 <img src="readme-images/YourDailyZenQuote.png" alt="Home Page"/>

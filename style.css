@@ -37,20 +37,42 @@ h1 {
     padding: 0 10px;
 }
 
-#search {
-    
-    width: 130px;
-    height: 40px;
-    border-color: #1f2024;
-    border-width: medium;
-    border-style: solid;
-    border-radius: 50px;
-    background-color: #1f2024;
-    color: white;
-    margin: 20px 0px 0px 0px;
-}
-
 #q {
     padding: 1.2rem 0;
     font-weight: 300;
+    animation: fade-in;
 }
+
+button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #5d00ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    cursor: pointer;
+    margin: 20px 0px 0px 0px;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
