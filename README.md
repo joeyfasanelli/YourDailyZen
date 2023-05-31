@@ -16,7 +16,7 @@
 <img src="readme-images/YourDailyZenQuote.png" alt="Home Page"/>
 
 ## Getting Started
-https://joeyfasanelli.github.io/YourDailyZen/
+https://your-daily-zen.vercel.app/
 
 ## Recent Changes
 * Switched to ZenQuotes.io for quote of the day feature.
