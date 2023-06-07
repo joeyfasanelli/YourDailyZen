@@ -11,11 +11,13 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
+    
 }
 
 .background-image {
-    background-image: url(./images/lake-purple.jpg);
+    background-image: url(./images/Firewatch.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -24,6 +26,7 @@ h1 {
     font-size: 70px;
     line-height: 1.4;
     margin-bottom: 12px;
+    
 }
 
 .text {
@@ -35,6 +38,7 @@ h1 {
     justify-content: center;
     text-align: center;
     padding: 0 10px;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 #q {
